@@ -1,5 +1,9 @@
-Linux C编程学习记录
+Linux API学习记录
 ====
 ###个人的Linux系统编程学习记录
 
-具体内容请查看本项目[wiki](../../wiki)
+<div align="center">
+<a href="home">
+<img src=http://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NewTux.svg/150px-NewTux.svg.png />
+</a>
+</div>
