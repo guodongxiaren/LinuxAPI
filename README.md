@@ -1,6 +1,6 @@
-Linux API学习记录
+Linux API手册
 ====
-###个人的Linux系统编程学习记录
+###[果冻虾仁](http://guodongxiaren.me)的Linux系统编程学习记录
 
 <div align="center">
 <a href="home">
