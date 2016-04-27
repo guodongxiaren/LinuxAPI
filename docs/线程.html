@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Introduction | Linux API速查手册</title>
+        <title>线程 | Linux API速查手册</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.6.7">
@@ -15,21 +15,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
-        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
         
-    <link rel="stylesheet" href="gitbook/style.css">
+    <link rel="stylesheet" href="../gitbook/style.css">
     
         
-        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
-        
-    
-        
-        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
         
     
         
-        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
         
     
     
@@ -37,8 +37,10 @@
         
     
     
-    <link rel="next" href="./docs/Home.html" />
+    <link rel="next" href="../docs/pthread_create.html" />
     
+    
+    <link rel="prev" href="../docs/带外数据.html" />
     
 
         
@@ -47,10 +49,10 @@
         
         
     <div class="book"
-        data-level="0"
-        data-chapter-title="Introduction"
-        data-filepath="README.md"
-        data-basepath="."
+        data-level="13"
+        data-chapter-title="线程"
+        data-filepath="docs/线程.md"
+        data-basepath=".."
         data-revision="Wed Apr 27 2016 14:33:48 GMT+0800 (CST)"
         data-innerlanguage="">
     
@@ -67,10 +69,10 @@
 
             
     
-        <li class="chapter active" data-level="0" data-path="index.html">
+        <li class="chapter " data-level="0" data-path="index.html">
             
                 
-                    <a href="./index.html">
+                    <a href="../index.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -83,7 +85,7 @@
         <li class="chapter " data-level="1" data-path="docs/Home.html">
             
                 
-                    <a href="./docs/Home.html">
+                    <a href="../docs/Home.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -98,7 +100,7 @@
         <li class="chapter " data-level="2" data-path="docs/时间.html">
             
                 
-                    <a href="./docs/时间.html">
+                    <a href="../docs/时间.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -122,7 +124,7 @@
         <li class="chapter " data-level="2.1.1" data-path="docs/time.html">
             
                 
-                    <a href="./docs/time.html">
+                    <a href="../docs/time.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -137,7 +139,7 @@
         <li class="chapter " data-level="2.1.2" data-path="docs/difftime.html">
             
                 
-                    <a href="./docs/difftime.html">
+                    <a href="../docs/difftime.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -152,7 +154,7 @@
         <li class="chapter " data-level="2.1.3" data-path="docs/localtime.html">
             
                 
-                    <a href="./docs/localtime.html">
+                    <a href="../docs/localtime.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -187,7 +189,7 @@
         <li class="chapter " data-level="2.2.1" data-path="docs/gettimeofday.html">
             
                 
-                    <a href="./docs/gettimeofday.html">
+                    <a href="../docs/gettimeofday.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -212,7 +214,7 @@
         <li class="chapter " data-level="3" data-path="docs/系统管理.html">
             
                 
-                    <a href="./docs/系统管理.html">
+                    <a href="../docs/系统管理.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -228,7 +230,7 @@
         <li class="chapter " data-level="3.1" data-path="docs/uname.html">
             
                 
-                    <a href="./docs/uname.html">
+                    <a href="../docs/uname.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -243,7 +245,7 @@
         <li class="chapter " data-level="3.2" data-path="docs/getpwuid.html">
             
                 
-                    <a href="./docs/getpwuid.html">
+                    <a href="../docs/getpwuid.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -258,7 +260,7 @@
         <li class="chapter " data-level="3.3" data-path="docs/getgrgid.html">
             
                 
-                    <a href="./docs/getgrgid.html">
+                    <a href="../docs/getgrgid.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -281,7 +283,7 @@
         <li class="chapter " data-level="3.4.1" data-path="docs/getopt.html">
             
                 
-                    <a href="./docs/getopt.html">
+                    <a href="../docs/getopt.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -322,7 +324,7 @@
         <li class="chapter " data-level="4.1.1" data-path="docs/fwrite-fread.html">
             
                 
-                    <a href="./docs/fwrite-fread.html">
+                    <a href="../docs/fwrite-fread.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -337,7 +339,7 @@
         <li class="chapter " data-level="4.1.2" data-path="docs/fputs-fgets.html">
             
                 
-                    <a href="./docs/fputs-fgets.html">
+                    <a href="../docs/fputs-fgets.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -352,7 +354,7 @@
         <li class="chapter " data-level="4.1.3" data-path="docs/feof-ferror.html">
             
                 
-                    <a href="./docs/feof-ferror.html">
+                    <a href="../docs/feof-ferror.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -367,7 +369,7 @@
         <li class="chapter " data-level="4.1.4" data-path="docs/fseek-rewind.html">
             
                 
-                    <a href="./docs/fseek-rewind.html">
+                    <a href="../docs/fseek-rewind.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -382,7 +384,7 @@
         <li class="chapter " data-level="4.1.5" data-path="docs/ftell.html">
             
                 
-                    <a href="./docs/ftell.html">
+                    <a href="../docs/ftell.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -397,7 +399,7 @@
         <li class="chapter " data-level="4.1.6" data-path="docs/fopen.html">
             
                 
-                    <a href="./docs/fopen.html">
+                    <a href="../docs/fopen.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -412,7 +414,7 @@
         <li class="chapter " data-level="4.1.7" data-path="docs/fclose.html">
             
                 
-                    <a href="./docs/fclose.html">
+                    <a href="../docs/fclose.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -440,7 +442,7 @@
         <li class="chapter " data-level="4.2.1" data-path="docs/open.html">
             
                 
-                    <a href="./docs/open.html">
+                    <a href="../docs/open.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -455,7 +457,7 @@
         <li class="chapter " data-level="4.2.2" data-path="docs/read.html">
             
                 
-                    <a href="./docs/read.html">
+                    <a href="../docs/read.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -470,7 +472,7 @@
         <li class="chapter " data-level="4.2.3" data-path="docs/write.html">
             
                 
-                    <a href="./docs/write.html">
+                    <a href="../docs/write.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -485,7 +487,7 @@
         <li class="chapter " data-level="4.2.4" data-path="docs/lseek.html">
             
                 
-                    <a href="./docs/lseek.html">
+                    <a href="../docs/lseek.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -500,7 +502,7 @@
         <li class="chapter " data-level="4.2.5" data-path="docs/fcntl.html">
             
                 
-                    <a href="./docs/fcntl.html">
+                    <a href="../docs/fcntl.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -515,7 +517,7 @@
         <li class="chapter " data-level="4.2.6" data-path="docs/dup.html">
             
                 
-                    <a href="./docs/dup.html">
+                    <a href="../docs/dup.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -540,7 +542,7 @@
         <li class="chapter " data-level="5" data-path="docs/文件操作.html">
             
                 
-                    <a href="./docs/文件操作.html">
+                    <a href="../docs/文件操作.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -556,7 +558,7 @@
         <li class="chapter " data-level="5.1" data-path="docs/chown.html">
             
                 
-                    <a href="./docs/chown.html">
+                    <a href="../docs/chown.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -571,7 +573,7 @@
         <li class="chapter " data-level="5.2" data-path="docs/rename.html">
             
                 
-                    <a href="./docs/rename.html">
+                    <a href="../docs/rename.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -586,7 +588,7 @@
         <li class="chapter " data-level="5.3" data-path="docs/stat.html">
             
                 
-                    <a href="./docs/stat.html">
+                    <a href="../docs/stat.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -601,7 +603,7 @@
         <li class="chapter " data-level="5.4" data-path="docs/basename.html">
             
                 
-                    <a href="./docs/basename.html">
+                    <a href="../docs/basename.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -616,7 +618,7 @@
         <li class="chapter " data-level="5.5" data-path="docs/目录操作.html">
             
                 
-                    <a href="./docs/目录操作.html">
+                    <a href="../docs/目录操作.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -631,7 +633,7 @@
         <li class="chapter " data-level="5.6" data-path="docs/getcwd.html">
             
                 
-                    <a href="./docs/getcwd.html">
+                    <a href="../docs/getcwd.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -651,7 +653,7 @@
         <li class="chapter " data-level="6" data-path="docs/进程控制.html">
             
                 
-                    <a href="./docs/进程控制.html">
+                    <a href="../docs/进程控制.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -667,7 +669,7 @@
         <li class="chapter " data-level="6.1" data-path="docs/fork.html">
             
                 
-                    <a href="./docs/fork.html">
+                    <a href="../docs/fork.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -682,7 +684,7 @@
         <li class="chapter " data-level="6.2" data-path="docs/vfork.html">
             
                 
-                    <a href="./docs/vfork.html">
+                    <a href="../docs/vfork.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -697,7 +699,7 @@
         <li class="chapter " data-level="6.3" data-path="docs/exec.html">
             
                 
-                    <a href="./docs/exec.html">
+                    <a href="../docs/exec.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -719,7 +721,7 @@
         <li class="chapter " data-level="6.5" data-path="docs/wait.html">
             
                 
-                    <a href="./docs/wait.html">
+                    <a href="../docs/wait.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -746,7 +748,7 @@
         <li class="chapter " data-level="7" data-path="docs/进程通信.html">
             
                 
-                    <a href="./docs/进程通信.html">
+                    <a href="../docs/进程通信.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -769,7 +771,7 @@
         <li class="chapter " data-level="8.1" data-path="docs/pipe.html">
             
                 
-                    <a href="./docs/pipe.html">
+                    <a href="../docs/pipe.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -784,7 +786,7 @@
         <li class="chapter " data-level="8.2" data-path="docs/mkfifo.html">
             
                 
-                    <a href="./docs/mkfifo.html">
+                    <a href="../docs/mkfifo.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -804,7 +806,7 @@
         <li class="chapter " data-level="9" data-path="docs/信号处理.html">
             
                 
-                    <a href="./docs/信号处理.html">
+                    <a href="../docs/信号处理.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -820,7 +822,7 @@
         <li class="chapter " data-level="9.1" data-path="docs/信号类型.html">
             
                 
-                    <a href="./docs/信号类型.html">
+                    <a href="../docs/信号类型.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -835,7 +837,7 @@
         <li class="chapter " data-level="9.2" data-path="docs/psignal.html">
             
                 
-                    <a href="./docs/psignal.html">
+                    <a href="../docs/psignal.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -850,7 +852,7 @@
         <li class="chapter " data-level="9.3" data-path="docs/kill.html">
             
                 
-                    <a href="./docs/kill.html">
+                    <a href="../docs/kill.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -865,7 +867,7 @@
         <li class="chapter " data-level="9.4" data-path="docs/raise.html">
             
                 
-                    <a href="./docs/raise.html">
+                    <a href="../docs/raise.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -880,7 +882,7 @@
         <li class="chapter " data-level="9.5" data-path="docs/signal.html">
             
                 
-                    <a href="./docs/signal.html">
+                    <a href="../docs/signal.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -895,7 +897,7 @@
         <li class="chapter " data-level="9.6" data-path="docs/sigaction.html">
             
                 
-                    <a href="./docs/sigaction.html">
+                    <a href="../docs/sigaction.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -910,7 +912,7 @@
         <li class="chapter " data-level="9.7" data-path="docs/信号阻塞.html">
             
                 
-                    <a href="./docs/信号阻塞.html">
+                    <a href="../docs/信号阻塞.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -925,7 +927,7 @@
         <li class="chapter " data-level="9.8" data-path="docs/sigsuspend.html">
             
                 
-                    <a href="./docs/sigsuspend.html">
+                    <a href="../docs/sigsuspend.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -952,7 +954,7 @@
         <li class="chapter " data-level="10" data-path="docs/XSI-IPC.html">
             
                 
-                    <a href="./docs/XSI-IPC.html">
+                    <a href="../docs/XSI-IPC.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -968,7 +970,7 @@
         <li class="chapter " data-level="10.1" data-path="docs/消息队列.html">
             
                 
-                    <a href="./docs/消息队列.html">
+                    <a href="../docs/消息队列.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -984,7 +986,7 @@
         <li class="chapter " data-level="10.1.1" data-path="docs/msgget.html">
             
                 
-                    <a href="./docs/msgget.html">
+                    <a href="../docs/msgget.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -999,7 +1001,7 @@
         <li class="chapter " data-level="10.1.2" data-path="docs/msgctl.html">
             
                 
-                    <a href="./docs/msgctl.html">
+                    <a href="../docs/msgctl.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1014,7 +1016,7 @@
         <li class="chapter " data-level="10.1.3" data-path="docs/msgsnd-msgrcv.html">
             
                 
-                    <a href="./docs/msgsnd-msgrcv.html">
+                    <a href="../docs/msgsnd-msgrcv.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1034,7 +1036,7 @@
         <li class="chapter " data-level="10.2" data-path="docs/信号量.html">
             
                 
-                    <a href="./docs/信号量.html">
+                    <a href="../docs/信号量.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1050,7 +1052,7 @@
         <li class="chapter " data-level="10.2.1" data-path="docs/semget.html">
             
                 
-                    <a href="./docs/semget.html">
+                    <a href="../docs/semget.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1065,7 +1067,7 @@
         <li class="chapter " data-level="10.2.2" data-path="docs/semctl.html">
             
                 
-                    <a href="./docs/semctl.html">
+                    <a href="../docs/semctl.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1080,7 +1082,7 @@
         <li class="chapter " data-level="10.2.3" data-path="docs/semop.html">
             
                 
-                    <a href="./docs/semop.html">
+                    <a href="../docs/semop.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1100,7 +1102,7 @@
         <li class="chapter " data-level="10.3" data-path="docs/共享内存.html">
             
                 
-                    <a href="./docs/共享内存.html">
+                    <a href="../docs/共享内存.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1116,7 +1118,7 @@
         <li class="chapter " data-level="10.3.1" data-path="docs/shmget.html">
             
                 
-                    <a href="./docs/shmget.html">
+                    <a href="../docs/shmget.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1131,7 +1133,7 @@
         <li class="chapter " data-level="10.3.2" data-path="docs/shmctl.html">
             
                 
-                    <a href="./docs/shmctl.html">
+                    <a href="../docs/shmctl.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1146,7 +1148,7 @@
         <li class="chapter " data-level="10.3.3" data-path="docs/shmat-shmdt.html">
             
                 
-                    <a href="./docs/shmat-shmdt.html">
+                    <a href="../docs/shmat-shmdt.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1186,7 +1188,7 @@
         <li class="chapter " data-level="11.2" data-path="docs/POSIX信号量.html">
             
                 
-                    <a href="./docs/POSIX信号量.html">
+                    <a href="../docs/POSIX信号量.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1213,7 +1215,7 @@
         <li class="chapter " data-level="12" data-path="docs/网络编程.html">
             
                 
-                    <a href="./docs/网络编程.html">
+                    <a href="../docs/网络编程.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1229,7 +1231,7 @@
         <li class="chapter " data-level="12.1" data-path="docs/套接字结构.html">
             
                 
-                    <a href="./docs/套接字结构.html">
+                    <a href="../docs/套接字结构.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1244,7 +1246,7 @@
         <li class="chapter " data-level="12.2" data-path="docs/套接字函数.html">
             
                 
-                    <a href="./docs/套接字函数.html">
+                    <a href="../docs/套接字函数.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1259,7 +1261,7 @@
         <li class="chapter " data-level="12.3" data-path="docs/字节序转换函数.html">
             
                 
-                    <a href="./docs/字节序转换函数.html">
+                    <a href="../docs/字节序转换函数.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1274,7 +1276,7 @@
         <li class="chapter " data-level="12.4" data-path="docs/地址转换函数.html">
             
                 
-                    <a href="./docs/地址转换函数.html">
+                    <a href="../docs/地址转换函数.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1289,7 +1291,7 @@
         <li class="chapter " data-level="12.5" data-path="docs/主机.html">
             
                 
-                    <a href="./docs/主机.html">
+                    <a href="../docs/主机.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1304,7 +1306,7 @@
         <li class="chapter " data-level="12.6" data-path="docs/服务.html">
             
                 
-                    <a href="./docs/服务.html">
+                    <a href="../docs/服务.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1319,7 +1321,7 @@
         <li class="chapter " data-level="12.7" data-path="docs/带外数据.html">
             
                 
-                    <a href="./docs/带外数据.html">
+                    <a href="../docs/带外数据.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1349,10 +1351,10 @@
             
         </li>
     
-        <li class="chapter " data-level="13" data-path="docs/线程.html">
+        <li class="chapter active" data-level="13" data-path="docs/线程.html">
             
                 
-                    <a href="./docs/线程.html">
+                    <a href="../docs/线程.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1375,7 +1377,7 @@
         <li class="chapter " data-level="14.1" data-path="docs/pthread_create.html">
             
                 
-                    <a href="./docs/pthread_create.html">
+                    <a href="../docs/pthread_create.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1390,7 +1392,7 @@
         <li class="chapter " data-level="14.2" data-path="docs/pthread_exit.html">
             
                 
-                    <a href="./docs/pthread_exit.html">
+                    <a href="../docs/pthread_exit.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1405,7 +1407,7 @@
         <li class="chapter " data-level="14.3" data-path="docs/pthread_join.html">
             
                 
-                    <a href="./docs/pthread_join.html">
+                    <a href="../docs/pthread_join.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1425,7 +1427,7 @@
         <li class="chapter " data-level="15" data-path="docs/线程同步.html">
             
                 
-                    <a href="./docs/线程同步.html">
+                    <a href="../docs/线程同步.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1441,7 +1443,7 @@
         <li class="chapter " data-level="15.1" data-path="docs/互斥锁.html">
             
                 
-                    <a href="./docs/互斥锁.html">
+                    <a href="../docs/互斥锁.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1482,7 +1484,7 @@
         <li class="chapter " data-level="16" data-path="docs/IO复用.html">
             
                 
-                    <a href="./docs/IO复用.html">
+                    <a href="../docs/IO复用.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1498,7 +1500,7 @@
         <li class="chapter " data-level="16.1" data-path="docs/select.html">
             
                 
-                    <a href="./docs/select.html">
+                    <a href="../docs/select.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1513,7 +1515,7 @@
         <li class="chapter " data-level="16.2" data-path="docs/poll.html">
             
                 
-                    <a href="./docs/poll.html">
+                    <a href="../docs/poll.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1528,7 +1530,7 @@
         <li class="chapter " data-level="16.3" data-path="docs/epoll.html">
             
                 
-                    <a href="./docs/epoll.html">
+                    <a href="../docs/epoll.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1544,7 +1546,7 @@
         <li class="chapter " data-level="16.3.1" data-path="docs/epoll_create.html">
             
                 
-                    <a href="./docs/epoll_create.html">
+                    <a href="../docs/epoll_create.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1559,7 +1561,7 @@
         <li class="chapter " data-level="16.3.2" data-path="docs/epoll_ctl.html">
             
                 
-                    <a href="./docs/epoll_ctl.html">
+                    <a href="../docs/epoll_ctl.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1574,7 +1576,7 @@
         <li class="chapter " data-level="16.3.3" data-path="docs/epoll_wait.html">
             
                 
-                    <a href="./docs/epoll_wait.html">
+                    <a href="../docs/epoll_wait.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1599,7 +1601,7 @@
         <li class="chapter " data-level="17" data-path="docs/AIO.html">
             
                 
-                    <a href="./docs/AIO.html">
+                    <a href="../docs/AIO.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -1634,7 +1636,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="./" >Linux API速查手册</a>
+        <a href="../" >Linux API速查手册</a>
     </h1>
 </div>
 
@@ -1644,11 +1646,64 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="linux-api&#x901F;&#x67E5;&#x624B;&#x518C;">Linux API&#x901F;&#x67E5;&#x624B;&#x518C;</h1>
-<h3 id="&#x679C;&#x51BB;&#x867E;&#x4EC1;&#x7684;linux&#x7CFB;&#x7EDF;&#x7F16;&#x7A0B;&#x5B66;&#x4E60;&#x8BB0;&#x5F55;"><a href="http://guodongxiaren.me" target="_blank">&#x679C;&#x51BB;&#x867E;&#x4EC1;</a>&#x7684;Linux&#x7CFB;&#x7EDF;&#x7F16;&#x7A0B;&#x5B66;&#x4E60;&#x8BB0;&#x5F55;</h3>
-<div align="center">
-<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NewTux.svg/150px-NewTux.svg.png">
-</div>
+                        <p>&#x7EBF;&#x7A0B;&#x662F;&#x8FDB;&#x7A0B;&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x72EC;&#x7ACB;&#x63A7;&#x5236;&#x6D41;&#x3002;&#x4E00;&#x4E2A;&#x8FDB;&#x7A0B;&#x5305;&#x542B;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x7EBF;&#x7A0B;&#x3002;<br>&#x7EBF;&#x7A0B;&#x57FA;&#x672C;&#x4E0A;&#x4E0D;&#x62E5;&#x6709;&#x7CFB;&#x7EDF;&#x8D44;&#x6E90;&#xFF08;&#x53EA;&#x6709;&#x5C11;&#x91CF;&#x8FD0;&#x884C;&#x4E2D;&#x5FC5;&#x4E0D;&#x53EF;&#x5C11;&#x7684;&#x8D44;&#x6E90;&#xFF09;&#xFF0C;&#x4F46;&#x5B83;&#x53EF;&#x4E0E;&#x540C;&#x5C5E;&#x4E8E;&#x4E00;&#x4E2A;&#x8FDB;&#x7A0B;&#x7684;&#x5176;&#x4ED6;&#x7EBF;&#x7A0B;&#x5171;&#x4EAB;&#x8BE5;&#x8FDB;&#x7A0B;&#x7684;&#x5168;&#x90E8;&#x8D44;&#x6E90;&#xFF0C;&#x5305;&#x62EC;&#x5730;&#x5740;&#x7A7A;&#x95F4;&#xFF08;&#x6570;&#x636E;&#x6BB5;&#x548C;&#x5806;&#x6BB5;&#xFF09;&#x3001;&#x901A;&#x7528;&#x4FE1;&#x53F7;&#x5904;&#x7406;&#x673A;&#x5236;&#x3001;&#x6570;&#x636E;&#x4E0E;I/O&#x3002;&#x800C;&#x7EBF;&#x7A0B;&#x6709;&#x81EA;&#x5DF1;&#x7684;&#x6808;&#xFF08;&#x81EA;&#x52A8;&#x53D8;&#x91CF;&#xFF09;&#x3002;</p>
+<blockquote>
+<p>&#x8FDB;&#x7A0B;&#x662F;&#x7CFB;&#x7EDF;&#x8D44;&#x6E90;&#x5206;&#x914D;&#x7684;&#x6700;&#x5C0F;&#x5355;&#x4F4D;&#xFF0C;&#x7EBF;&#x7A0B;&#x662F;CPU&#x8C03;&#x5EA6;&#x7684;&#x6700;&#x5C0F;&#x5355;&#x4F4D;</p>
+</blockquote>
+<h2 id="pthread">pthread</h2>
+<p>Linux&#x4E2D;&#x7684;&#x7EBF;&#x7A0B;&#x76F8;&#x5173;&#x51FD;&#x6570;&#x90FD;&#x662F;&#x4EE5;pthread&#x5F00;&#x5934;&#x7684;&#xFF0C;&#x5B83;&#x7684;&#x542B;&#x4E49;&#x662F;&#xFF1A;POSIX thread&#xFF0C;&#x5373;POSIX&#x6807;&#x51C6;&#x7684;&#x7EBF;&#x7A0B;&#x3002; 
+&#x5173;&#x4E8E;POSIX&#x7EBF;&#x7A0B;&#x7684;&#x66F4;&#x591A;&#x6982;&#x5FF5;&#xFF0C;&#x5927;&#x5BB6;&#x53EF;&#x4EE5;&#x53BB;<code>man pthreads</code>&#x67E5;&#x770B;&#x3002;</p>
+<h2 id="api&#x5BF9;&#x6BD4;">API&#x5BF9;&#x6BD4;</h2>
+<table>
+<thead>
+<tr>
+<th>&#x529F;&#x80FD;</th>
+<th>&#x7EBF;&#x7A0B;</th>
+<th>&#x8FDB;&#x7A0B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x521B;&#x5EFA;</td>
+<td>pthread_create</td>
+<td>fork,vfork</td>
+</tr>
+<tr>
+<td>&#x9000;&#x51FA;</td>
+<td>pthread_exit</td>
+<td>exit</td>
+</tr>
+<tr>
+<td>&#x7B49;&#x5F85;</td>
+<td>pthread_join</td>
+<td>wait,waitpid</td>
+</tr>
+<tr>
+<td>&#x53D6;&#x6D88;/&#x7EC8;&#x6B62;</td>
+<td>pthread_cacel</td>
+<td>abort</td>
+</tr>
+<tr>
+<td>&#x8BFB;&#x53D6;ID</td>
+<td>pthread_self</td>
+<td>getpid</td>
+</tr>
+<tr>
+<td>&#x901A;&#x4FE1;&#x673A;&#x5236;</td>
+<td>&#x4FE1;&#x53F7;&#xFF0C;&#x4FE1;&#x53F7;&#x91CF;&#xFF0C;&#x4E92;&#x65A5;&#x9501;&#xFF0C;&#x8BFB;&#x5199;&#x9501;&#xFF0C;&#x6761;&#x4EF6;&#x53D8;&#x91CF;</td>
+<td>&#x7BA1;&#x9053;&#xFF08;&#x6709;&#x540D;/&#x65E0;&#x540D;&#xFF09;&#xFF0C;&#x4FE1;&#x53F7;&#xFF0C;&#x4FE1;&#x53F7;&#x91CF;&#xFF0C;&#x6D88;&#x606F;&#x961F;&#x5217;&#xFF0C;&#x5171;&#x4EAB;&#x5185;&#x5B58;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x8C03;&#x5EA6;">&#x8C03;&#x5EA6;</h2>
+<p>&#x7EBF;&#x7A0B;&#x548C;&#x8FDB;&#x7A0B;&#x652F;&#x6301;&#x540C;&#x6837;&#x7684;&#x8C03;&#x5EA6;&#x7B56;&#x7565;&#xFF1A; </p>
+<ul>
+<li>SCHED_OTHER &#x5206;&#x65F6;&#x8C03;&#x5EA6;&#x7B56;&#x7565;&#xFF0C;&#xFF08;&#x9ED8;&#x8BA4;&#x7684;&#xFF09;</li>
+<li>SCHED_FIFO &#x5B9E;&#x65F6;&#x8C03;&#x5EA6;&#x7B56;&#x7565;&#xFF0C;&#x5148;&#x5230;&#x5148;&#x670D;&#x52A1;</li>
+<li>SCHED_RR &#x5B9E;&#x65F6;&#x8C03;&#x5EA6;&#x7B56;&#x7565;&#xFF0C;&#x65F6;&#x95F4;&#x7247;&#x8F6E;&#x8F6C; </li>
+</ul>
+<h2 id="&#x7F16;&#x8BD1;">&#x7F16;&#x8BD1;</h2>
+<p>&#x5728;&#x7F16;&#x8BD1;&#xFF08;<strong>gcc</strong>&#xFF09;&#x5305;&#x542B;pthread&#x51FD;&#x6570;&#x7684;&#x7A0B;&#x5E8F;&#x65F6;&#xFF0C;&#x8981;&#x663E;&#x5F0F;&#x5730;&#x94FE;&#x63A5;&#x7EBF;&#x7A0B;&#x5E93;&#xFF0C;&#x5373;<strong>-lpthread</strong>&#x3002;</p>
 
                     
                     </section>
@@ -1659,33 +1714,35 @@
         </div>
 
         
+        <a href="../docs/带外数据.html" class="navigation navigation-prev " aria-label="Previous page: 带外数据"><i class="fa fa-angle-left"></i></a>
         
-        <a href="./docs/Home.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 首页"><i class="fa fa-angle-right"></i></a>
+        
+        <a href="../docs/pthread_create.html" class="navigation navigation-next " aria-label="Next page: pthread_create"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
 
         
-<script src="gitbook/app.js"></script>
+<script src="../gitbook/app.js"></script>
 
     
-    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
-    
-
-    
-    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
     
 
     
-    <script src="gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
     
 
     
-    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
     
 
     
-    <script src="gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
     
 
 <script>
